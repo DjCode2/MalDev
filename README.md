@@ -7,9 +7,9 @@ flux d'exécution sous Linux, parcours de la PEB et des tables d'export PE sous 
 
 | Dossier | Plateforme | Sujet |
 |---|---|---|
-| [`linux/signal-flux`](linux/signal-flux) | Linux x86-64 | Redirection du flux via `ud2`, `SIGILL` et `ucontext_t` |
-| [`windows/peb-walk`](windows/peb-walk) | Windows x64 | Recherche d'un module chargé via la PEB |
-| [`windows/api-hash-resolver`](windows/api-hash-resolver) | Windows x64 | Résolution d'une fonction par hash de son nom dans la table d'export |
+| [`MalDevLinux/Flux_Redirect`](MalDevLinux/Flux_Redirect) | Linux x86-64 | Redirection du flux via `ud2`, `SIGILL` et `ucontext_t` |
+| [`MalDevWinx64/PEB_Walkx64`](MalDevWinx64/PEB_Walkx64) | Windows x64 | Recherche d'un module chargé via la PEB |
+| [`MalDevWinx64/GetFCTAdressByHashx64`](MalDevWinx64/GetFCTAdressByHashx64) | Windows x64 | Résolution d'une fonction par hash de son nom dans la table d'export |
 
 Chaque dossier contient son propre README avec la compilation, la sortie attendue et une section détection.
 
